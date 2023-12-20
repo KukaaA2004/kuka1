@@ -1,0 +1,56 @@
+* {
+  font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1e1e1e;
+}
+
+h1 {
+  font-size: 80px;
+  color: #FFC600;
+}
+
+h2 {
+  font-size: 40px;
+  color: #FFC600;
+}
+
+h3 {
+  font-size: 20px;
+  color: #FFC600;
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+::-webkit-datetime-edit-month-field { 
+  text-transform: uppercase; 
+}
+
+::-webkit-datetime-edit-day-field { 
+  text-transform: uppercase; 
+}
+
+::-webkit-datetime-edit-year-field { 
+  text-transform: uppercase; 
+}
+
+::-webkit-calendar-picker-indicator {
+  background: transparent;
+  width: 0;
+}
